@@ -4,6 +4,8 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    line-height: normal;
+    font-size: large;
     font-family: 'Zen Loop', cursive;
     }
 
@@ -158,4 +160,26 @@ h6 {
   }
 
 
-
+/* Anchor tags */
+a {
+    color: red;
+    background-color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
